@@ -1,7 +1,6 @@
 {
   "name": "search-jobs",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +8,19 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.21.1"
-  }
+    "axios": "^0.21.1",
+    "node-cron": "^2.0.3",
+    "node-fetch": "^2.6.1",
+    "redis": "^3.0.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dancanmilgo73/Search-Jobs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dancanmilgo73/Search-Jobs/issues"
+  },
+  "homepage": "https://github.com/Dancanmilgo73/Search-Jobs#readme",
+  "description": ""
 }
