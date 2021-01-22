@@ -14,9 +14,7 @@
     "node-fetch": "^2.6.1",
     "redis": "^3.0.2"
   },
-  "devDependencies": {
-    "opencollective-postinstall": "^2.0.3"
-  },
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Dancanmilgo73/Search-Jobs.git"
