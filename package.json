@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "opencollective-postinstall exit 0"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
@@ -13,10 +12,11 @@
     "express": "^4.17.1",
     "node-cron": "^2.0.3",
     "node-fetch": "^2.6.1",
-    "opencollective-postinstall": "^2.0.3",
     "redis": "^3.0.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "opencollective-postinstall": "^2.0.3",
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Dancanmilgo73/Search-Jobs.git"
@@ -27,3 +27,4 @@
   "homepage": "https://github.com/Dancanmilgo73/Search-Jobs#readme",
   "description": ""
 }
+
