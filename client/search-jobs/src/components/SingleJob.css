@@ -1,0 +1,46 @@
+/* .job {
+  height: 30vh;
+  margin: 5px auto;
+  background-color: white;
+  border-radius: 3%;
+  flex-direction: column;
+}
+img {
+  height: 5vh;
+  width: 3vw;
+  border-radius: 10%;
+}
+.img {
+  display: flex;
+  justify-content: flex-start;
+}
+ 
+@media screen and (min-width: 40em) {
+  .job {
+    display: flex;
+    flex: 0 1 calc(50% - 1em);
+  }
+}
+@media screen and (min-width: 60em) {
+  .job {
+    display: flex;
+    flex: 0 1 calc(25% - 1em);
+  }
+}
+ */
+.card {
+  margin: 1% auto;
+  border-radius: 5%;
+  box-shadow: 3px 3px 5px 6px rgb(151, 150, 150);
+}
+.card-img-top {
+  height: 5vh;
+  width: 3vw;
+  border-radius: 10%;
+  display: flex;
+  justify-content: flex-start;
+}
+.card-top {
+  display: flex;
+  flex-direction: row;
+}

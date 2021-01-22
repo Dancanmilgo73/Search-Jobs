@@ -12,8 +12,9 @@ const getAsync = promisify(client.get).bind(client);
 
 app.get('/jobs', async (req, res) => {
   const jobs = await getAsync("jobsToStore"); 
+  res.header("Access-Control-Allow-Origin", "  http://localhost:3000");
   console.log(JSON.parse(jobs).length); 
-  res.send(jobs)
+  res.send(jobs.replace(/(<([^>]+)>)/gi, ""))
 })
 
 app.listen(port, () => {
