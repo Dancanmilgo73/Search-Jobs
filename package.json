@@ -15,7 +15,7 @@
     "redis": "^3.0.2"
   },
   "devDependencies": {
-    "opencollective-postinstall": "^2.0.3",
+    "opencollective-postinstall": "^2.0.3"
   },
   "repository": {
     "type": "git",
