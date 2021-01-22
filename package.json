@@ -12,6 +12,7 @@
     "express": "^4.17.1",
     "node-cron": "^2.0.3",
     "node-fetch": "^2.6.1",
+    "opencollective-postinstall": "^2.0.3",
     "redis": "^3.0.2"
   },
   "devDependencies": {},
