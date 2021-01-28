@@ -15,7 +15,7 @@ function App() {
   const [jobsPerPage] = useState(18);
   async function getJobs(){
     setLoading(true);
-    const res = await fetch('http://localhost:3001/jobs');
+    const res = await fetch('https://search--jobs.herokuapp.com/jobs');
     const jobs = await res.json();
     //console.log(jobs.length);
     setJobs(jobs);
